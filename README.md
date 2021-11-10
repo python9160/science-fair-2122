@@ -8,4 +8,6 @@ Heapsort: [HeapSort - GeeksforGeeks](https://www.geeksforgeeks.org/heap-sort/) <
 Insertion Sort: [Insertion Sort - GeeksforGeeks](https://www.geeksforgeeks.org/Insertion-sort/) <br>
 Selection Sort: [Selection Sort - GeeksforGeeks](https://www.geeksforgeeks.org/selection-sort/) <br>
 Quicksort: [Quick ort - GeeksforGeeks](https://www.geeksforgeeks.org/quick-sort/) <br>
-Gnome Sort / Stupid Sort: [Gnome Sort - GeeksforGeeks](https://www.geeksforgeeks.org/gnome-sort-a-stupid-one/) <br>
+Gnome Sort / Stupid Sort: [Gnome Sort - GeeksforGeeks](https://www.geeksforgeeks.org/gnome-sort-a-stupid-one/) <br><br>
+
+csv-parser: [vincentlauscb/csv-parser](https://github.com/vincentlauscb/csv-parser) (Github Repo) <br>
