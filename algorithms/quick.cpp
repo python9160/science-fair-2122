@@ -1,11 +1,5 @@
 #include "algorithms.h"
-
-void swap(int* xp, int* yp)
-{
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
-}
+#include "swap.h"
 
 int partition (int arr[], int low, int high) 
 { 

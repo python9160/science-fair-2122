@@ -1,15 +1,8 @@
 #include "algorithms.h"
+#include "swap.h"
 
-void swap(int* xp, int* yp)
+void bubbleSort(int arr[], int n)
 {
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
-}
-
-void bubbleSort(int arr[])
-{
-    int n = sizeof *arr / sizeof(int) ;
     int i, j;
     bool swapped;
     for (i = 0; i < n - 1; i++)

@@ -1,8 +1,7 @@
 #include "algorithms.h"
 
-void insertionSort(int arr[])
+void insertionSort(int arr[], int n)
 {
-    int n = sizeof *arr / sizeof(int);
     int i, key, j;
     for (i = 1; i < n; i++)
     {

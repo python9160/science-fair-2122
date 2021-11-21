@@ -1,15 +1,8 @@
 #include "algorithms.h"
-
-void swap(int *xp, int *yp)
-{
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
-}
+#include "swap.h"
  
-void selectionSort(int arr[])
+void selectionSort(int arr[], int n)
 {
-    int n = sizeof *arr / sizeof(int);
     int i, j, min_idx;
  
     // One by one move boundary of unsorted subarray

@@ -1,15 +1,8 @@
 #include "algorithms.h"
+#include "swap.h"
 
-void swap(int* xp, int* yp)
+void gnomeSort(int arr[], int n)
 {
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
-}
-
-void gnomeSort(int arr[])
-{
-    int n = sizeof *arr / sizeof(int);
     int index = 0;
  
     while (index < n) {

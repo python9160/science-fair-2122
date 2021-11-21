@@ -1,11 +1,5 @@
 #include "algorithms.h"
-
-void swap(int* a, int* b) 
-{ 
-    int t = *a; 
-    *a = *b; 
-    *b = t; 
-}
+#include "swap.h"
 
 void heapify(int arr[], int n, int i)
 {
@@ -30,10 +24,8 @@ void heapify(int arr[], int n, int i)
     }
 }
 
-void heapSort(int arr[])
+void heapSort(int arr[], int n)
 {
-    int n = sizeof *arr / sizeof(int);
-
     // Build heap (rearrange array)
     for (int i = n / 2 - 1; i >= 0; i--)
         heapify(arr, n, i);
