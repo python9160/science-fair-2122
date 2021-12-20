@@ -29,5 +29,6 @@
         "xiosbase": "cpp",
         "xstring": "cpp",
         "xtree": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
