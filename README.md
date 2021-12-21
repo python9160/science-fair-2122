@@ -1,5 +1,7 @@
 # Science Fair 2021-2022
 
+All time values are in Milliseconds.
+
 Sources: 
 
 Bubble Sort: [Bubble Sort - GeeksforGeeks](https://www.geeksforgeeks.org/bubble-sort/) <br>
